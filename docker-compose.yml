@@ -2,7 +2,7 @@ services:
   pyspark:
     build: ./docker
     ports:
-      - "8888:8888"   # Jupyter
+      - "8889:8888"   # Jupyter
     volumes:
       - ./notebooks:/home/jovyan/notebooks/
       - ./data:/home/jovyan/data/
